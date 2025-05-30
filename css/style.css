@@ -624,6 +624,12 @@ h3.my-profession {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-item:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(48, 46, 77, 0.15);
 }
 
 .portfolio .portfolio-item-inner {
