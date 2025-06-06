@@ -1,4 +1,3 @@
-// Typing animation
 new Typed(".typing", {
   strings: [
     "",
@@ -14,11 +13,9 @@ new Typed(".typing", {
   loop: true,
 });
 
-// Select all sections and nav links
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav li a");
 
-// Intersection Observer to update active nav link
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -32,10 +29,8 @@ const observer = new IntersectionObserver((entries) => {
   threshold: 0.3,
 });
 
-// Observe each section
 sections.forEach((section) => observer.observe(section));
 
-// Manual active class on nav click
 navLinks.forEach((link) =>
   link.addEventListener("click", function () {
     navLinks.forEach((l) => l.classList.remove("active"));
