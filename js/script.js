@@ -1,13 +1,5 @@
 new Typed(".typing", {
-  strings: [
-    "",
-    "Frontend Developer",
-    "Full Stack Developer",
-    "React Developer",
-    "Web Developer",
-    "Java Developer",
-    "Database Developer",
-  ],
+  strings: ["", "Frontend Developer", "React Developer", "Web Developer"],
   typeSpeed: 100,
   backSpeed: 50,
   loop: true,
@@ -16,18 +8,24 @@ new Typed(".typing", {
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav li a");
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      const id = entry.target.id;
-      navLinks.forEach((link) => {
-        link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
-      });
-    }
-  });
-}, {
-  threshold: 0.3,
-});
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        navLinks.forEach((link) => {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === `#${id}`
+          );
+        });
+      }
+    });
+  },
+  {
+    threshold: 0.3,
+  }
+);
 
 sections.forEach((section) => observer.observe(section));
 
