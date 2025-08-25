@@ -608,6 +608,12 @@ h3.my-profession {
   padding-bottom: 40px;
 }
 
+.portfolio h1 {
+  color: var(--skin-color);
+  text-align: center;
+  font-size: 2rem;
+}
+
 .portfolio .portfolio-heading {
   flex: 0 0 100%;
   max-width: 100%;
@@ -791,4 +797,25 @@ h3.my-profession {
     flex: 0 0 50%;
     max-width: 50%;
   }
+}
+
+/* Make social media boxes clickable */
+.contact .social-links a {
+  text-decoration: none;
+  display: block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: var(--skin-color);
+}
+
+/* Smooth hover effect */
+.contact .social-links a:hover .icon i,
+.contact .social-links a:hover h4,
+.contact .social-links a:hover p {
+  color: var(--skin-color);
+  transform: translateY(-4px);
+}
+
+/* Icon size */
+.contact .social-links a .icon i {
+  font-size: 2rem;
 }
