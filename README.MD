@@ -1,35 +1,37 @@
-# Portfolio Project
+# Portfolio
 
-This project is a personal portfolio website showcasing skills, projects, and contact information. It is built using HTML, CSS, and JavaScript, with a focus on responsive design and user experience.
+Portfolio is a modern personal website to showcase your skills, projects, and contact information. Built with HTML, CSS, and JavaScript, it features a visually appealing and responsive design for web developers and professionals.
 
-## Project Structure
+## Live Demo
 
-- css/: Contains all the CSS files for styling the website.
-  - style.css: Main stylesheet for the portfolio, defining the overall layout and design.
-  - style-switcher.css: Styles for the theme switcher feature that allows users to change color themes.
-  - skins/: Contains different color theme stylesheets.
-    - color-1.css: First color theme.
-    - color-2.css: Second color theme.
-    - color-3.css: Third color theme.
-    - color-4.css: Fourth color theme.
-    - color-5.css: Fifth color theme.
-
-- images/: Directory for images used in the portfolio (e.g., profile picture, project screenshots).
-
-- js/: Contains JavaScript files for interactivity.
-  - script.js: Main JavaScript file that handles typing animation and section navigation.
-  - style-switcher.js: JavaScript for the style switcher functionality, allowing users to toggle themes and dark/light mode.
-
-- index.html: The main HTML file that serves as the entry point for the portfolio website.
+Check out the live site: [swastisunder.netlify.app](https://swastisunder.netlify.app/)
 
 ## Features
 
-- Responsive Design: The portfolio is designed to be mobile-friendly and adjusts to different screen sizes.
-- Theme Switcher: Users can switch between different color themes and toggle between light and dark modes.
-- Typing Animation: A typing effect is used to display various roles (e.g., Frontend Developer, Full Stack Developer) dynamically.
-- Smooth Navigation: The website features smooth scrolling and active link highlighting as users navigate through sections.
+- Responsive design for all devices
+- Theme switcher (multiple color themes & dark/light mode)
+- Typing animation for professional roles
+- Smooth navigation with active section highlighting
+- Portfolio section with project previews
+- Contact and social media links
+
+## Technologies Used
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Font Awesome](https://fontawesome.com/) (icons)
+- [Netlify](https://www.netlify.com/) (for deployment)
+
+## Project Structure
+
+- `index.html`: Main entry point
+- `css/`: Stylesheets (main, switcher, color themes)
+- `js/`: JavaScript files (main logic, style switcher)
+- `images/`: Profile, project screenshots, resume
 
 ## Usage
 
-- Click on the navigation links to scroll to different sections of the portfolio.
-- Use the style switcher to change the theme and toggle between light and dark modes.
+- Click navigation links to explore sections
+- Use the style switcher to change theme and mode
+- View portfolio projects and contact info
