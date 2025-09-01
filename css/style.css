@@ -611,7 +611,8 @@ h3.my-profession {
 .portfolio h1 {
   color: var(--skin-color);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  padding: 10px 20px;
 }
 
 .portfolio .portfolio-heading {
