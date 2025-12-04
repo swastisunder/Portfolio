@@ -1,5 +1,10 @@
 new Typed(".typing", {
-  strings: ["", "Frontend Developer", "React Developer", "Web Developer"],
+  strings: [
+    "Full-Stack Developer",
+    "React Developer",
+    "MERN Developer",
+    "Web Developer",
+  ],
   typeSpeed: 100,
   backSpeed: 50,
   loop: true,
